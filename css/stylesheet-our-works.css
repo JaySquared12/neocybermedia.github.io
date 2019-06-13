@@ -74,11 +74,9 @@ nav a:hover:before {
 }
 
 section {
-    margin: 0;
+    margin: 0 96px 0 96px;
     color: #ffffff;
-    text-align: center;
     padding: 15px 0 15px 0;
-    font-size: 32px;
 }
 
 section > h1 {
@@ -89,20 +87,32 @@ section > h1 {
 
 section > p {
     color: #ffffff;
-    text-align: justify; 
+    text-align: center; 
     margin: 0 96px 0 96px;
     font-size: 16px;
 }
 
 section > h3 {
     color: #ffffff;
-    text-align: center;
-    font-size: 24px;
+    text-align: left;
+    font-size: 26px;
 }
-
 
 section > .demopara {
   line-height: 2;
+}
+
+section > a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 16px;
+    margin: 0 96px 0 96px;
+    text-align: left;
+}
+
+section > a:hover {
+    color: #c1c1c1;
+    text-decoration: underline;
 }
 
 footer {
