@@ -102,15 +102,15 @@ section > .demopara {
   line-height: 2;
 }
 
-section > a {
+section > p > a {
     color: #ffffff;
     text-decoration: underline;
     font-size: 16px;
     margin: 0 96px 0 96px;
-    text-align: left;
+
 }
 
-section > a:hover {
+section > p > a:hover {
     color: #c1c1c1;
     text-decoration: underline;
 }
